@@ -6,9 +6,12 @@
 <hibernate-configuration>
     <session-factory>
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
-        <property name="hibernate.connection.url">jdbc:postgresql://91.238.103.197:5743/dbvpu021</property>
-        <property name="hibernate.connection.username">uservpu021</property>
-        <property name="hibernate.connection.password">Qwerty1e**djs@##$2jdjseIdWDJsdied</property>
+<!--        <property name="hibernate.connection.url">jdbc:postgresql://91.238.103.197:5743/dbvpu021</property>-->
+<!--        <property name="hibernate.connection.username">uservpu021</property>-->
+<!--        <property name="hibernate.connection.password">Qwerty1e**djs@##$2jdjseIdWDJsdied</property>-->
+        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/vpu021</property>
+        <property name="hibernate.connection.username">postgres</property>
+        <property name="hibernate.connection.password">123456</property>
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
 
         <property name="hibernate.connection.CharSet">utf8</property>
